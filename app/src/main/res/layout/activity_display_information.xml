@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:theme="@android:style/Theme.DeviceDefault.NoActionBar"
+    tools:context="com.jordy.rsrrevalidatieservice.DisplayInformationActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarInfo"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/btn_bg"
+        android:visibility="visible"
+        app:navigationIcon="@drawable/menu_arrow"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:title="@string/about_RSR_title"
+        app:titleTextColor="@android:color/white" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:cropToPadding="false"
+        app:srcCompat="@drawable/info_bg"
+        android:background="@color/colorDarkGreen"
+        android:paddingBottom="@dimen/info_image_border_padding"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textViewRSR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/info_text_marginHorizontal"
+                android:layout_marginVertical="@dimen/info_text_marginVertical"
+                android:text="@string/about_RSR"
+                android:textColor="@android:color/black"
+                android:textColorLink="@android:color/holo_blue_light"
+                android:textSize="@dimen/info_textsize" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

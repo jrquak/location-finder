@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/dialog_padding_bottom">
+
+    <Button
+        android:id="@+id/btnDialogCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:background="@color/colorGreenButton"
+        android:stateListAnimator="@null"
+        android:drawableLeft="@drawable/main_btn_close"
+        android:minHeight="@dimen/dialog_minHeight"
+        android:paddingStart="@dimen/dialog_padding_start"
+        android:paddingLeft="@dimen/dialog_padding_start"
+        android:text="@string/btnDialogCancel"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@android:color/white" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnDialogCancel"
+        android:background="@color/colorHoloGreen"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/dialog_layout_padding_left"
+        android:paddingRight="@dimen/dialog_layout_padding_right"
+        android:paddingTop="@dimen/dialog_layout_padding_top">
+
+        <TextView
+            android:id="@+id/dialogTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/btn_margin_bottom"
+            android:text="@string/dialog_title"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/dialog_title_textsize" />
+
+        <TextView
+            android:id="@+id/dialogText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dialogTitle"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/dialogText_marginBottom"
+            android:text="@string/dialog_text"
+            android:textAlignment="center"
+            android:textColor="@android:color/white" />
+
+
+        <Button
+            android:id="@+id/btnDialogCallNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dialogText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/dialog_btnDialogCallNumber_margin_bottom"
+            android:background="@drawable/btn_bg"
+            android:drawableLeft="@drawable/main_btn_phone"
+            android:paddingEnd="@dimen/btnDialogCallnumber_margin"
+            android:paddingLeft="@dimen/btnDialogCallnumber_margin"
+            android:stateListAnimator="@null"
+            android:text="@string/dialog_btn_call"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@android:color/white"
+            android:paddingRight="@dimen/btnDialogCallnumber_margin" />
+    </LinearLayout>
+
+</RelativeLayout>

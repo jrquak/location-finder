@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">RSR</string>
+    <string name="toolbar_main_title">RSR Revalidatieservice</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="btncall">Bel RSR nu</string>
+    <string name="about_RSR">Met de hulpmiddelen van RSR blijft u mobiel. RSR is dé leveranier van
+        hulpmiddelen in de regio Noordoost-Nederland. Gedegen kennis en jarenlange ervaring zit in
+        ons DNA verweven en leidt tot het beste advies.\n\nWilt u meer weten over onze producten en
+        diensten, kijk dan op www.rsr.nl of bezoek onze showrooms in Solvolde en Nieuwleussen. We
+        zijn iedere werkdag geopend van 8.00 tot 17.00 uur. Hier kunt u diverse hulpmiddelen
+        uitproberen en rustig bekijken wat goed bij u situatie aansluit. Samen met u zoeken we
+        naar het hulpmiddel dat bij u past. RSR maakt mensen mobiel.\n\nDeze app is gemaakt door
+        Jordy Quak.</string>
+    <string name="website_link">www.rsr.nl</string>
+    <string name="dialog_title">Belkosten</string>
+    <string name="dialog_text">Voor dit nummer betaalt u uw \ngebruikelijke belkosten.</string>
+    <string name="dialog_btn_call">Bel nu</string>
+    <string name="about_RSR_title">Over RSR</string>
+    <string name="btnPechhulp">RSR Pechhulp</string>
+    <string name="background_image">Background Image</string>
+    <string name="snippet_title">Uw Locatie:\n</string>
+    <string name="snippet_onthoud">\n\nOnthoud deze locatie voor het telefoongesprek.</string>
+    <string name="btnDialogCancel">Annuleren</string>
+    <string name="alert_dialog_title">Location Permission is needed</string>
+    <string name="alert_dialog_message">This app needs the Location permission.</string>
+    <string name="alert_dialog_confirmation">Ok</string>
+    <string name="permission_denied">Permission denied</string>
+</resources>

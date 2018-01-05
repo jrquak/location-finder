@@ -1,0 +1,31 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="btncall_margin_bottom">16dp</dimen>
+    <dimen name="btncall_margin_start">20dp</dimen>
+    <dimen name="btncall_margin_end">20dp</dimen>
+    <dimen name="btnDialogCancel_padding_end">12dp</dimen>
+    <dimen name="btnDialogCancel_padding_start">12dp</dimen>
+    <dimen name="btn_width">260dp</dimen>
+    <dimen name="btn_padding_start">16dp</dimen>
+    <dimen name="btn_padding_end">16dp</dimen>
+    <dimen name="btn_margin_end">64dp</dimen>
+    <dimen name="btn_margin_start">64dp</dimen>
+    <dimen name="btn_margin_bottom">16dp</dimen>
+    <dimen name="dialog_btnDialogCallNumber_margin_bottom">8dp</dimen>
+    <dimen name="dialogText_marginBottom">32dp</dimen>
+    <dimen name="dialog_minHeight">0dp</dimen>
+    <dimen name="dialog_padding_start">8dp</dimen>
+    <dimen name="dialog_padding_bottom">16dp</dimen>
+    <dimen name="dialog_title_textsize">20dp</dimen>
+    <dimen name="dialog_layout_padding_top">16dp</dimen>
+    <dimen name="dialog_layout_padding_left">8dp</dimen>
+    <dimen name="dialog_layout_padding_right">8dp</dimen>
+    <dimen name="splash_marginBottom">16dp</dimen>
+    <dimen name="splash_marginTop">16dp</dimen>
+    <dimen name="info_textsize">16sp</dimen>
+    <dimen name="info_image_border_padding">5dp</dimen>
+    <dimen name="info_text_marginHorizontal">16dp</dimen>
+    <dimen name="info_text_marginVertical">10dp</dimen>
+    <dimen name="btnDialogCallnumber_margin">16dp</dimen>
+    <dimen name="popup_width">200dp</dimen>
+</resources>
